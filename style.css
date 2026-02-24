@@ -644,7 +644,10 @@ button:hover {
     position: relative;
     top: 120px;
 }
- 
+ .line-3{
+    position: relative;
+left: 0;
+}
 }
 /* تنسيقات للهواتف المحمولة */
 @media screen and (max-width: 768px) {
