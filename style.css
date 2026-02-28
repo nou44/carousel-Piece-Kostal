@@ -50,10 +50,9 @@ header .logo img{
 }
 
 
-/* تنسيقات لمربع البحث */
 #search-input {
     padding: 6px;
-    width: 200px; /* يمكن تعديل العرض حسب الحاجة */
+    width: 200px; 
     border: 1px solid #a09b9b;
     border-radius: 5px;
     margin-right: 10px;
@@ -63,11 +62,11 @@ header .logo img{
     font-family: "Fredoka", sans-serif
 }
 
-/* تنسيقات لزر البحث */
+
 #search-button {
     padding: 6px 12px;
-    background-color:rgb(9, 79, 243) ; /* لون الخلفية */
-    color: rgb(253, 249, 249); /* لون النص */
+    background-color:rgb(9, 79, 243) ; 
+    color: rgb(253, 249, 249); 
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -649,10 +648,10 @@ button:hover {
 left: 0;
 }
 }
-/* تنسيقات للهواتف المحمولة */
+
 @media screen and (max-width: 768px) {
     #search-input {
-        width: 150px; /* عرض أصغر للهواتف */
+        width: 150px;
         padding: 5px;
         top: 15px;
         margin-right: 5px;
@@ -675,10 +674,9 @@ left: 0;
     }
 }
 
-/* تنسيقات للهواتف الصغيرة جداً */
 @media screen and (max-width: 480px) {
     #search-input {
-        width: 120px; /* عرض أصغر للهواتف الصغيرة */
+        width: 120px; 
         padding: 4px;
         top: 10px;
         font-size: 13px;
@@ -701,13 +699,13 @@ left: 0;
     }
 }
 
-/* تنسيقات للهواتف في الوضع الأفقي (Landscape) */
+
 @media screen and (max-width: 768px) and (orientation: landscape) {
     #search-input {
-        width: 180px; /* عرض أكبر قليلاً في الوضع الأفقي */
+        width: 180px; 
     }
 }
-/* تنسيقات للتابلت */
+
 @media screen and (max-width: 1024px) {
     .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button {
         padding: 4px 8px;
@@ -717,7 +715,7 @@ left: 0;
     }
 }
 
-/* تنسيقات للهواتف المحمولة */
+
 @media screen and (max-width: 768px) {
     .carousel.carousel.showDetail .list .item:nth-child(2) .checkout {
         display: flex;
@@ -733,15 +731,15 @@ left: 0;
         margin-left: 0;
         font-size: 14px;
         letter-spacing: 1px;
-        order: 2; /* لوضع الزر في الأسفل */
+        order: 2;
     }
     
     .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button:nth-child(2) {
-        order: 1; /* إذا كان هناك أزرار أخرى */
+        order: 1; 
     }
 }
 
-/* تنسيقات للهواتف الصغيرة */
+
 @media screen and (max-width: 480px) {
     .carousel.carousel.showDetail .list .item:nth-child(2) .checkout {
         gap: 8px;
@@ -756,7 +754,7 @@ left: 0;
     }
 }
 
-/* تنسيقات للهواتف الصغيرة جداً */
+
 @media screen and (max-width: 360px) {
     .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button {
         width: 95%;
@@ -765,7 +763,7 @@ left: 0;
     }
 }
 
-/* إذا كنت تريد أن يكون الزر دائري أو بأيقونة على الهواتف */
+
 @media screen and (max-width: 480px) {
     .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button.add-to-cart {
         display: flex;
@@ -774,7 +772,7 @@ left: 0;
         gap: 5px;
     }
     
-    /* إذا أردت إضافة أيقونة للسلة */
+   
     .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button.add-to-cart::before {
         content: "🛒";
         font-size: 14px;
