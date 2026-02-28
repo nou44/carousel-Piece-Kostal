@@ -105,8 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function reorderItems(matchedItem, carouselList) {
         // إزالة العنصر المتطابق من الـ DOM مؤقتًا
         carouselList.removeChild(matchedItem);
-
-        // إرجاعه في الموضع المطلوب (في هذا المثال، الموضع الثاني)
+        
         const secondItem = carouselList.children[1];
         carouselList.insertBefore(matchedItem, secondItem);
     }
@@ -131,8 +130,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (titleMatches.length > 0) {
             const matchedItem = titleMatches[0];
-            matchedItem.style.display = 'block'; // إظهار العنصر
-            reorderItems(matchedItem, carouselList); // تحريكه إلى الموضع الثاني
+            matchedItem.style.display = 'block'; 
+            reorderItems(matchedItem, carouselList); 
         } else {
             const topics = new Set();
 
